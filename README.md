@@ -148,3 +148,18 @@ Maintainability:
 The codebase shall be modular and well-documented to facilitate future updates and bug fixes.
 
 New features can be integrated into the system with minimal disruption to existing functionalities.
+
+## Use Case Diagrams
+Use Case Diagrams are a powerful tool in Requirement Analysis, providing a high-level visual representation of how users (actors) interact with a system to achieve specific goals (use cases). They are part of the Unified Modeling Language (UML) and are particularly effective for understanding the functional scope of a system from a user's perspective.
+
+Benefits of Use Case Diagrams:
+
+Clarify System Scope: They clearly delineate the boundaries of the system and what it is intended to do, preventing scope creep.
+
+Enhance Communication: By providing a common visual language, they facilitate understanding between stakeholders, developers, and testers, regardless of their technical background.
+
+Identify User Goals: They focus on the goals that users want to achieve with the system, rather than the internal workings of the system.
+
+Drive Further Analysis: Each use case can serve as a starting point for more detailed functional requirements, user stories, and test cases.
+
+Easy to Understand: Their simplicity makes them an excellent tool for initial discussions and validating requirements with non-technical stakeholders.
