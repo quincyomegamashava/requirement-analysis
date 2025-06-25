@@ -78,3 +78,73 @@ This activity focuses on refining, organizing, and understanding the documented 
 Requirement Validation
 
 The final critical step is to review the documented and modeled requirements with all relevant stakeholders to ensure they accurately reflect their needs and expectations. This process aims to confirm that "the right product is being built" by verifying that the requirements are clear, testable, and align with business goals. For the booking management system, this would involve walkthroughs of use cases, reviews of the SRS, and discussions to gain official approval and sign-off from property owners, guests, and system administrators.
+
+
+## Types of Requirements
+Requirements can generally be categorized into two main types: Functional and Non-functional. Both are crucial for defining a comprehensive and successful software system.
+
+Functional Requirements
+Functional requirements define what the system must do in terms of its features and functionalities. They describe the interactions between the user and the system, and how the system should react to specific inputs and conditions. These are typically expressed as actions the system will perform.
+
+Examples for a Booking Management System:
+
+User Registration and Authentication: The system shall allow new users (guests, hosts, administrators) to register an account and log in securely.
+
+Property Listing Management: The system shall enable hosts to create, edit, and delete property listings, including details such as availability, pricing, description, and images.
+
+Property Search and Filtering: The system shall allow guests to search for properties based on location, dates, price range, number of guests, and property type, and apply filters.
+
+Booking Creation and Management: The system shall enable guests to select available dates, send booking requests to hosts, and view the status of their bookings. Hosts shall be able to accept or decline booking requests.
+
+Payment Processing: The system shall integrate with a payment gateway to securely process payments for bookings.
+
+Booking Confirmation and Notifications: The system shall automatically send email notifications to guests and hosts upon booking confirmation, cancellation, or status updates.
+
+User Profile Management: The system shall allow users to view and update their personal information, booking history, and preferences.
+
+Cancellation Policy Enforcement: The system shall enforce predefined cancellation policies and calculate refunds based on the timing of the cancellation.
+
+Non-functional Requirements
+Non-functional requirements specify how the system performs its functions. They define the quality attributes, constraints, and performance criteria that the system must adhere to. These requirements often impact the user experience, system reliability, and overall system effectiveness.
+
+Examples for a Booking Management System:
+
+Performance:
+
+The system shall load property search results within 2 seconds for up to 1,000 concurrent users.
+
+Booking confirmation emails shall be sent within 30 seconds of a booking being confirmed.
+
+Security:
+
+The system shall encrypt all sensitive user data (e.g., passwords, payment information) using industry-standard encryption protocols (e.g., AES-256).
+
+The system shall implement multi-factor authentication (MFA) for host and administrator logins.
+
+The system shall protect against common web vulnerabilities (e.g., SQL injection, XSS).
+
+Scalability:
+
+The system shall be able to support up to 10,000 concurrent users without significant performance degradation.
+
+The system architecture shall allow for easy horizontal scaling to accommodate future growth in users and properties.
+
+Usability:
+
+The user interface shall be intuitive and easy to navigate for users with basic computer literacy.
+
+The system shall be accessible on various devices and screen sizes (desktop, tablet, mobile).
+
+Error messages shall be clear, concise, and provide actionable guidance to the user.
+
+Reliability:
+
+The system shall maintain 99.9% uptime, excluding scheduled maintenance.
+
+In the event of a system failure, data recovery shall be possible within 1 hour.
+
+Maintainability:
+
+The codebase shall be modular and well-documented to facilitate future updates and bug fixes.
+
+New features can be integrated into the system with minimal disruption to existing functionalities.
