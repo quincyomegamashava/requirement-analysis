@@ -163,3 +163,90 @@ Identify User Goals: They focus on the goals that users want to achieve with the
 Drive Further Analysis: Each use case can serve as a starting point for more detailed functional requirements, user stories, and test cases.
 
 Easy to Understand: Their simplicity makes them an excellent tool for initial discussions and validating requirements with non-technical stakeholders.
+
+Example Use Case Diagram for the Booking Management System
+Below is a conceptual use case diagram for the booking management system, illustrating the main actors and their primary interactions with the system.
+
+(Note: To view the diagram, you will need to create and export a use case diagram using a tool like Draw.io, save it as alx-booking-uc.png, and upload it to the root of your requirement-analysis GitHub repository. The diagram should visually represent the relationships between the actors (Guest, Host, Administrator) and the key use cases (e.g., Register, Log In, Search Property, Book Property, Manage Listings, Process Payments, Manage Users).)
+
+## Acceptance Criteria
+Acceptance Criteria are predefined conditions that a software feature must satisfy to be considered complete and acceptable by stakeholders. They are crucial for bridging the gap between requirements and development, ensuring that what is built truly meets the intended purpose and user expectations.
+
+Importance of Acceptance Criteria in Requirement Analysis:
+
+Clear Definition of "Done": Acceptance criteria provide unambiguous statements that define when a feature or user story is successfully implemented. This clarity reduces ambiguity and prevents misunderstandings between development, testing, and business teams.
+
+Facilitate Testing: They serve as direct input for creating test cases, allowing quality assurance (QA) teams to verify that the developed functionality performs as expected from a business perspective.
+
+Align Stakeholder Expectations: By clearly outlining the expected behavior and outcomes, acceptance criteria ensure that all stakeholders (users, product owners, developers, testers) have a shared understanding of what the feature will deliver.
+
+Reduce Rework: When acceptance criteria are defined upfront, it minimizes the likelihood of misinterpretations or features being built incorrectly, thereby reducing costly rework during later stages of development.
+
+Enable User-Centric Development: They keep the focus on the user's needs and how they will interact with the system, ensuring the delivered solution is valuable and usable.
+
+Example Acceptance Criteria for the "Checkout" Feature in the Booking Management System:
+Feature: Guest completes booking checkout
+
+Acceptance Criteria:
+
+Scenario 1: Successful Payment with Valid Details
+
+Given a guest has reviewed their booking details on the checkout page.
+
+And the guest enters valid credit card information.
+
+When the guest clicks the "Confirm Booking & Pay" button.
+
+Then the system shall process the payment successfully.
+
+And the guest shall receive a "Booking Confirmed" message.
+
+And a booking confirmation email shall be sent to the guest.
+
+And a notification of a new booking shall be sent to the host.
+
+And the property's availability for the booked dates shall be updated as unavailable.
+
+Scenario 2: Payment Failure Due to Invalid Details
+
+Given a guest has reviewed their booking details on the checkout page.
+
+And the guest enters invalid credit card information (e.g., incorrect number, expired date).
+
+When the guest clicks the "Confirm Booking & Pay" button.
+
+Then the system shall display an error message indicating invalid payment details.
+
+And the booking status shall remain pending or not created.
+
+And no payment shall be processed.
+
+Scenario 3: Insufficient Funds
+
+Given a guest has reviewed their booking details on the checkout page.
+
+And the guest enters valid credit card information, but the account has insufficient funds.
+
+When the guest clicks the "Confirm Booking & Pay" button.
+
+Then the system shall display an error message indicating insufficient funds.
+
+And the booking status shall remain pending or not created.
+
+And no payment shall be processed.
+
+Scenario 4: System Error During Payment Processing
+
+Given a guest has reviewed their booking details on the checkout page.
+
+And the guest enters valid credit card information.
+
+When a system error occurs during payment gateway communication.
+
+Then the system shall display a generic payment error message, advising the guest to try again later or contact support.
+
+And the booking status shall remain pending or not created.
+
+And no payment shall be processed.
+
+And the error shall be logged for administrator review.
