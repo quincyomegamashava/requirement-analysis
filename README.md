@@ -32,3 +32,26 @@ Supports Scalability & Maintenance: A well-documented system is easier to update
 
 🧩 Role in SDLC:
 Requirement Analysis is typically the second phase in the SDLC, following project initiation and feasibility studies. It sets the stage for system design, architecture, and development by ensuring a shared understanding of what is to be built before moving into how it will be built.
+
+## 🔍 What is Requirement Analysis?
+Requirement Analysis is a crucial phase in the Software Development Life Cycle (SDLC) that involves identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a proposed software system. It acts as the foundation for designing, developing, and delivering a product that aligns with business goals and user expectations.
+
+✅ Key Objectives of Requirement Analysis:
+Understand what the users and stakeholders need.
+
+Translate those needs into clear, structured, and actionable requirements.
+
+Identify potential constraints, dependencies, and assumptions.
+
+Ensure alignment between the technical team and business objectives.
+
+🛠 Why is Requirement Analysis Important?
+Reduces Risk of Failure: Clear requirements help avoid misunderstandings and misalignments that often lead to project failures.
+
+Improves Planning & Estimation: Accurate requirements enable better time, cost, and resource estimation.
+
+Enhances Communication: Acts as a reference point for all stakeholders, fostering transparency.
+
+Ensures Quality: Defined requirements provide the basis for testing, validation, and acceptance criteria.
+
+Supports Scalability & Maintenance: A well-documented system is easier to update and scale over time.
