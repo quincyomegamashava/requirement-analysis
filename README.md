@@ -167,7 +167,9 @@ Easy to Understand: Their simplicity makes them an excellent tool for initial di
 Example Use Case Diagram for the Booking Management System
 Below is a conceptual use case diagram for the booking management system, illustrating the main actors and their primary interactions with the system.
 
-(Note: To view the diagram, you will need to create and export a use case diagram using a tool like Draw.io, save it as alx-booking-uc.png, and upload it to the root of your requirement-analysis GitHub repository. The diagram should visually represent the relationships between the actors (Guest, Host, Administrator) and the key use cases (e.g., Register, Log In, Search Property, Book Property, Manage Listings, Process Payments, Manage Users).)
+![Booking System UI Wireframe](./alx-booking-uc.png)
+
+
 
 ## Acceptance Criteria
 Acceptance Criteria are predefined conditions that a software feature must satisfy to be considered complete and acceptable by stakeholders. They are crucial for bridging the gap between requirements and development, ensuring that what is built truly meets the intended purpose and user expectations.
